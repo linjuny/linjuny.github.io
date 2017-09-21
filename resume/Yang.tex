@@ -1,0 +1,181 @@
+% LaTeX file for resume
+% This file uses the resume document class (res.cls)
+\documentclass{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font
+\newsectionwidth{0pt}  % So the text is not indented under section headings
+\usepackage{fancyhdr}  % use this package to get a 2 line header
+%\usepackage{hyperref}
+\renewcommand{\headrulewidth}{0pt} % suppress line drawn by default by fancyhdr
+\setlength{\headheight}{24pt} % allow room for 2-line header
+\setlength{\headsep}{24pt}  % space between header and text
+\setlength{\headheight}{24pt} % allow room for 2-line header
+\pagestyle{fancy}     % set pagestyle for document
+%\rhead{ {\it Linjun Yang}\\{\it p. \thepage} } % put text in header (right side)
+\cfoot{}                                     % the foot is empty
+\topmargin=-0.5in % start text higher on the page
+
+\begin{document}
+\thispagestyle{empty} % this page has no header
+\name{\Large{Linjun Yang} \\[12pt]}
+
+\address{}
+
+%\address{23516 NE 22nd st, \\Sammamish, WA, 98074, USA}
+
+\address{Phone:  +1-425-505-9910 \\
+Email: linjun.yang@hotmail.com
+ }
+
+
+
+
+\begin{resume}
+
+\section{{}}
+\emph{Dr. Linjun Yang has over 10 years experiences on researching/developing cutting-edge image retrieval/computer vision/machine learning technologies. He has authored/co-authored more than 60 peer-reviewed papers published in various conference proceedings and journals and 23 filed US/international patents. His papers have gotten over 2000 citations and his h-index is 22 according to Google Scholar 4/2015. He is now leading a team to develop various advanced image understanding technologies/systems on billions of Web image data, including deep learning, semantic embedding, duplicate-detection, visual similarity search, annotation, etc., with application to various Microsoft products.}
+
+%\vspace{0.1in}
+\section{{EDUCATION}}
+%\vspace{8pt}
+{\sl Ph.D}, Multimedia Information Retrieval \\
+Delft University of Technology, The Netherlands \hfill 2013
+
+{\sl M.S.}, Compute Science \\
+Fudan University, Shanghai, China \hfill 2006
+
+
+{\sl B.S.}, Electronics \& Information System \\ % \sl will be bold italic in
+                     % New Century Schoolbook (or
+                     % any postscript font) and
+                     % just slanted in Computer
+                     % Modern (default) font
+East China Normal University, Shanghai, China      \hfill   2001
+
+%Hanshan Middle School, Anhui, Chi na      \hfill   1997
+
+\section{AWARDS}
+
+The Best Paper Award at ACM International Conference on Multimedia (ACM MM), Beijing, China, 2009.
+%\vspace{-8mm}
+
+The Best Student Paper Award at the 18th ACM Conference on Information and Knowledge Management (CIKM), Hong Kong, 2009.
+
+%Microsoft Hi-Po Program, 2011.
+
+
+
+%\vspace{0.1in}
+\section{{PROFESSIONAL EXPERIENCE}}
+%\vspace{8pt}
+{\sl Microsoft Bing} \hfill        Jul. 2012 - Present \\
+Principal Software Engineer Manager \\
+\emph{ - lead a team of 10+ people to research and develop cutting-edge computer vision and machine learning technologies, as well as develop products such as Bing visual search.}
+    \begin{itemize} \itemsep 1pt % reduce space between items
+   	\item Visual search (a.k.a search by image) \\
+   	\emph{own the product e2e including building measurement set/metric; developing models/rankers for search quality, algorithms/pipeline for fast search, and new UX features (like object detection)for user experience; tracking/improving user engagement metric}
+   	
+    \item Deep learning for image understanding \\
+    \emph{research/develop deep neural network models for improving various image understanding tasks including feature learning, image categorization, object detection, semantic embedding, etc.}
+    
+    \item Large-scale duplicate/similarity search system \\
+    \emph{build a system to retrieve similar/duplicate images from billion-scale database for billions of images per day}
+    \item Image tagging / recognition \\
+    \emph{build algorithms/system to generate tags for any given image based on deep learning and similarity search}
+    \item {image processing pipeline} \\
+    \emph{designed and implemented a graph based image processing pipeline to faciliate algorithm/model development and deployment}
+    \end{itemize}
+
+{\sl Microsoft Bing} \hfill        Nov. 2011 - Apr. 2012 \\
+Visiting  Researcher, Multimedia Search Team
+    \begin{itemize} \itemsep 1pt % reduce space between items
+    \item Designing and implementing back-end image processing library/pipeline.
+    \item Developing billion-scale image duplicate detection system.
+    \end{itemize}
+
+{\sl Microsoft Research Asia} \hfill        Jul. 2006 - Jul. 2012 \\
+Associate Researcher, Media Computing Group
+
+   \begin{itemize} \itemsep 1pt % reduce space between items
+   \item Visual search
+
+   \emph{We study various methods to improve the precision of image and video search by example.}
+
+
+   \item Content-based Image Ranking/Reranking
+
+   \emph{This objective of this project is to improve image search ranking by utilizing visual content analysis.}
+
+   \item Video analysis SDK
+
+    \emph{to develop a suite of libraries for image and video content
+    analysis based on Windows DirectShow API. }
+
+ \end{itemize}
+
+%{\sl ALi (Shanghai) Corporation} \\[2pt]
+%Software Engineer \hfill    Jul. 2001 -- Sep. 2002
+%
+%  \begin{itemize}
+%  \item  \emph{to develop the device drivers for Windows and Linux.}
+% \end{itemize}
+
+\section{{COMPUTING SKILLS }}
+%\vspace{0.2in}
+\begin{itemize}
+    \item Experienced in C++, C\#.
+    \item Experienced in Machine learning and Information retrieval.
+\end{itemize}
+
+
+%\vspace{0.1in}
+%\section{{PROFESSIONAL ACTIVITIES}}
+%\vspace{0.2in}
+%\begin{itemize}
+%    \item Technical Program Committee: ACM MM 2013-2014; ICMR 2012; ICME 2012; ICDE 2011; ICMR 2011; ICIP 2011; SIGIR 2011-2014; IJCAI 2011; WIAMIS 2011; CIVR 2010; ICME 2009; ICME 2008.
+%\end{itemize}
+
+%\vspace{0.1in}
+\section{{REPRESENTATIVE PUBLICATIONS}}
+%\vspace{0.1in}
+%2010
+(full publicationb list: https://scholar.google.com/citations?user=cvgKxDQAAAAJ)
+
+[10] Linjun Yang, Alan Hanjalic, ``Learning to Rerank Web Images,'' IEEE Multimedia 2013.
+
+[9] Bo Geng$^*$, Linjun Yang, Chao Xu, Xian-Sheng Hua, Shipeng Li, ``The Role of Attractiveness in Web Image Search,'' {\it ACM Multimedia 2011}.
+
+[8] Xinmei Tian$^*$, Linjun Yang, Jingdong Wang, Xiuqing Wu, Xian-Sheng Hua, ``Bayesian Visual Reranking,'' IEEE Transactions on Multimedia.
+
+[7] Lifeng Shang, Linjun Yang, Fei Wang, Kwok-Ping Chan, Xian-Sheng Hua, ``Real-time large scale near-duplicate web video retrieval,'' {\it ACM Multimedia 2010.}
+
+[6] Linjun Yang, Alan Hanjalic, ``Supervised Reranking for Web Image Search,'' {\it ACM Multimedia 2010.}
+
+[5] Bo Geng$^*$, Linjun Yang, Chao Xu, Xian-Sheng Hua, ``Ranking Model Adaptation for Domain Specific Search,'' {\it ACM Conference on Information and Knowledge Management (CIKM) 2009 (Best Student Paper Award).}
+
+%2009
+[4] Zheng-Jun Zha$^*$, Linjun Yang, Tao Mei, Meng Wang, Zengfu Wang, ``Visual Query Suggestion," {\it ACM Multimedia 2009 (Best Paper Award).}
+
+
+[3] Lei Wu$^*$, Linjun Yang, Nenghai Yu, Xian-Sheng Hua, ``Learning to
+Tag'', {\it WWW '09: Proceeding of the 18th international conference
+on World Wide Web. 2009.}
+
+[2] Dong Liu$^*$, Xian-Sheng Hua, Linjun Yang, Meng Wang, Hong-Jiang
+Zhang, ``Tag Ranking'', {\it WWW '09: Proceeding of the 18th
+international conference on World Wide Web. 2009.}
+
+
+%2008
+[1] Xinmei Tian$^*$, Linjun Yang, Jingdong Wang, Yichen Yang$^*$,
+Xiuqing Wu, Xian-Sheng Hua, ``Bayesian Video Search Reranking,''
+{\it ACM Multimedia 2008.}
+
+\vspace{-0.1in} \emph{* the interns I mentored at Microsoft Research
+Asia}
+
+
+
+
+\end{resume}
+\end{document}
