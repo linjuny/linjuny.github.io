@@ -1,0 +1,57 @@
+﻿body {
+	max-width:1024px;
+	min-width:600px;
+	margin-left:20px;
+}
+div.section {
+	margin-top:30px;
+}
+
+img.portrait {
+	float:left;
+	margin-right:20px;
+}
+
+div.intro {
+	background-color: #E0E8EC;
+	text-align:justify;
+	height:200px;
+}
+#pageHeader {
+	background: url(bgWoman.jpg) no-repeat top;
+	width: 566px;
+	height: 200px;
+}
+#menu p, #menu li {
+	font: small/1.6em tahoma, verdana, sans-serif;
+	text-indent: 0;
+}
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#menu li {
+	color: #fff;
+	padding: 5px 0 0 0px;
+	margin:5px 0px 0px 0px;
+	display: inline;
+}
+#menu li a {
+	display: inline;
+	border: none;
+	color: #707F7F;
+	text-decoration: none;
+	font-weight: bold;
+	margin-left: -12px;
+	padding-left: 12px;
+}
+#menu li a:hover {
+	color: #606F6F;
+	text-decoration: underline;
+}
+
+li {
+	text-align:left;
+	margin:5px 0px 0px 0px;
+}
